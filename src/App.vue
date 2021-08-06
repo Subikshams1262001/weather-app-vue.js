@@ -10,7 +10,7 @@
         <input
           type="text"
           class="search-bar"
-          placeholder="Search..."
+          placeholder="Enter the Place here.."
           v-model="query"
           @keypress="fetchWeather"
         />
@@ -156,7 +156,8 @@ main {
   font-size: 28px;
   font-weight: 600px;
   text-align: center;
-  font-family: cursive;
+  font-style: italic;
+  margin: 20px 0px;
 }
 .weather-box {
   text-align: center;
@@ -178,7 +179,7 @@ main {
   color: #fff;
   font-size: 42px;
   font-weight: 700;
-  font-family: cursive;
+
   text-shadow: 3px 6px rgba(0, 0, 0, 0.25);
 }
 </style>
